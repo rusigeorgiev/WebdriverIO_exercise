@@ -22,12 +22,13 @@ npx wdio run wdio.conf.js
 Future work:
 1) Implement the structure of the framework - navigation, assertions, 
    connections with database and ticketing system - for example Jira
-2) Implement good reporting
+2) Implement good reporting (including test coverage)
 3) Implement screenshots
 4) Extend the tests to use different browsers
 5) Put the tests in a container so that we can run them easily on different systems
 6) Integrate the tests with an automation server - for example Jenkins
-7) Implement BDD
+7) Add performance tests
+8) Implement BDD
 
 Good practices: 
 1) To make the tests run in parallel they should not rely on each other
